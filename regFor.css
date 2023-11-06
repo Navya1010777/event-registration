@@ -1,0 +1,50 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(images/sean-pollock-PhYq704ffdA-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.2fr;
+   
+}
+.container>header{
+    display: grid;
+    align-items: start;
+   
+}
+.btn-primary:hover{
+    background-color: #6e096c;
+    border-color: #6e096c;
+    transform: rotate3d(1,1,0, 25deg);
+    color: white;
+}
+
+
+
+hr{
+    border-color: #940B92;
+    border-width: 3px;
+    max-width: 65px;
+}
+h1{
+    size: 3rem;
+    color: black;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.btn{
+    padding: 0.7rem 2rem;
+    border-radius: 300px;
+}
+.btn-primary{
+    background-color:rgb(148, 10, 146) ;
+    border-color: #940B92;
+    transition: all 0.5s;
+}
